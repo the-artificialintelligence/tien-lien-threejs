@@ -1,0 +1,1 @@
+export class Player{constructor(e){this.id=e.id,this.name=e.name,this.isAI=e.isAI||!1,this.hand=[]}drawCards(e,t){this.hand.push(...e.draw(t))}playCards(e){e.forEach(e=>{const t=this.hand.findIndex(t=>t.id===e.id);t>-1&&this.hand.splice(t,1)})}hasWon(){return 0===this.hand.length}getValidMoves(e,t){return e.validatePlay(this.hand,t,this.hand)}}

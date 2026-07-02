@@ -1,0 +1,1 @@
+{"name":"tien-lien-threejs","version":"1.0.0","description":"Modular Tiến Lên card game built with Three.js","type":"module","main":"src/index.js","scripts":{"dev":"vite","build":"vite build","preview":"vite preview"},"dependencies":{"three":"^r128"},"devDependencies":{"vite":"^4.5.0"}}
