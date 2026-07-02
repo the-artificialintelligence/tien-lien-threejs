@@ -1,0 +1,1 @@
+export class Card{static RANKS=['3','4','5','6','7','8','9','10','J','Q','K','A','2'];static SUITS=['spades','clubs','diamonds','hearts'];constructor(e,t){this.id=e+'-'+t,this.rank=e,this.suit=t,Object.freeze(this)}static fromId(e){const[t,s]=e.split('-');return new Card(t,s)}}
